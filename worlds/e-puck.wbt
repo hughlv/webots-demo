@@ -1,4 +1,4 @@
-#VRML_SIM R2022b utf8
+#VRML_SIM R2023b utf8
 
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackground.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2022b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
@@ -14,7 +14,7 @@ WorldInfo {
 }
 Viewpoint {
   orientation -0.16091570958437604 0.08710109655477316 0.9831172531228981 2.0789738795604262
-  position 0.8041247040543071 -1.1511726268588542 0.5192006851837068
+  position 0.8048718892247586 -0.21323392894018992 0.5191359067512884
   follow "e-puck"
 }
 TexturedBackground {
@@ -54,7 +54,18 @@ WoodenBox {
   size 0.1 0.1 0.1
 }
 E-puck {
-  rotation 0 0 1 1.57
+  hidden position_0_0 46.81199565231525
+  hidden position_0_1 46.81199565179849
+  hidden linearVelocity_0 -2.3473936763385084e-08 -2.946856467965435e-05 -1.0382762098941248e-08
+  hidden angularVelocity_0 0.0019646427390123742 -1.5649867226417517e-06 -4.134407247368614e-11
+  hidden rotation_1 0 -1 0 3.453486805121445
+  hidden linearVelocity_1 -3.129933624248437e-08 -3.9292332779510134e-05 2.2589263757338197e-11
+  hidden angularVelocity_1 0.0019646427172990625 -1.564985716755495e-06 1.3575257031520073e-10
+  hidden rotation_2 0 -1 0 3.4534868056382013
+  hidden linearVelocity_2 -3.129928740989971e-08 -3.9292333051347497e-05 2.2446444751259265e-11
+  hidden angularVelocity_2 0.001964642717308977 -1.5649869193467091e-06 -2.184374207932047e-10
+  translation 0.0007464056149444364 0.9369596651166711 -6.394298793139554e-05
+  rotation -0.0006985812215600001 0.0006991355886484891 0.9999995115967335 1.5700002383257092
   controller "e-puck"
   window "simple_e-puck"
 }
